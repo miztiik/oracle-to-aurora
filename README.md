@@ -491,12 +491,12 @@ In this Workshop you will practice how to migrate your Oracle DB databases to Am
       ![Miztiik Automation: Database Migration - Oracle DB to Amazon Aurora PostgreSQL](images/miztiik_architecture_oracle_to_aurora_22.png)
 
     - **AFTER** initial load is completed, use the following script to enable the foreign key constraints that we dropped earlier:
-      1. Within MySQL Workbench, click on the File menu, and choose New Query Tab.
+      1. Within pgadmin, click on the File menu, and choose New Query Tab.
       1. Open `add_constraints_to_target_postgres_AddConstraintsPostgreSQL.sql` with a text editor on your computer.
       1. Copy the content to pgadmin query editor.
       1. Execute the script.
 
-    ![Miztiik Automation: Database Migration - Oracle DB to Amazon Aurora PostgreSQL](images/miztiik_architecture_oracle_to_aurora_22.png)
+    ![Miztiik Automation: Database Migration - Oracle DB to Amazon Aurora PostgreSQL](images/miztiik_architecture_oracle_to_aurora_23.png)
 
     _Additional Learnings:_ You can check the logs in cloudwatch for more information or increase the logging level of the database migration task.
 
