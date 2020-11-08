@@ -9,7 +9,6 @@ from aws_cdk import core
 app = core.App()
 
 env_ORACLE = core.Environment(region="us-east-1")
-# env_ORACLE = core.Environment(account="", region="us-east-1")
 
 # VPC Stack for hosting Secure API & Other resources
 vpc_stack = VpcStack(
